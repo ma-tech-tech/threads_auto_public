@@ -1,0 +1,47 @@
+# ===== Secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+**/.venv/
+**/venv/
+**/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== macOS / Editor =====
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Claude Code（マシンローカル状態） =====
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/projects/
+.claude/shell-snapshots/
+.claude/todos/
+.claude/state/
+.claude/cache/
+
+# ===== Node（将来用） =====
+node_modules/
+.next/
+dist/
+build/
+
+# ===== threads_auto 出力・状態（生成物） =====
+repo/01_active/posts/
+repo/01_active/logs/
+repo/01_active/state/
+repo/01_active/test_results/
+
+# 個人コンテンツ（自分用に動かす場合に accidental commit を防ぐ）
+repo/01_active/reservations/
+repo/01_active/seeds/
+repo/01_active/learning/

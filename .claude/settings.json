@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 */scripts/*.py:*)",
+      "Bash(python3 *scripts/*.py:*)",
+      "Bash(bash */scripts/*.sh:*)",
+      "Bash(bash *scripts/*.sh:*)",
+      "Bash(date:*)",
+      "Bash(ls:*)",
+      "Bash(cat */state/*)",
+      "Bash(cat */posts/*)",
+      "Bash(cat */reservations/*)",
+      "Read",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch"
+    ]
+  }
+}
