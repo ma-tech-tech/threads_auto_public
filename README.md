@@ -43,7 +43,15 @@ Claude Code を中心に組んだ Threads 自動投稿システム。news-curato
 
 ## ライセンス
 
-未定。気が向いたら追加します。
+**MIT License + [Commons Clause](https://commonsclause.com/)**（source-available / 非販売）
+
+- ✅ 個人利用・学習・社内ツールとしての利用は自由
+- ✅ フォーク・改変・再配布も OK
+- ❌ **本ソフトウェアそのものの販売、または本ソフトウェアの機能を中核とした有償サービス・有償サポートの提供は不可**
+
+詳細は [LICENSE](./LICENSE) を参照。
+
+> Note: Commons Clause を含むため OSI 定義の「オープンソース」ではなく、**source-available** に分類されます。
 
 ## 関連
 
